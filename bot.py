@@ -1,4 +1,4 @@
-from telethon import events, TelegramClient
+from pyrogram import Client
 
 import re, os, random, asyncio, logging, html
 
@@ -12,7 +12,7 @@ APP_ID = os.environ.get("APP_ID")
 API_HASH = os.environ.get("API_HASH")
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
-bot = TelegramClient("bot", APP_ID, API_HASH).start(bot_token=BOT_TOKEN)
+pbot = Client("pbot", api_id=APP_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
-print("Bot started!!")
-bot.run_until_disconnected()
+print("Bot started!")
+pbot.run()
