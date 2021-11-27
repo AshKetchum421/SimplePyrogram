@@ -1,6 +1,6 @@
 {
-    "name": "TelethonBot",
-    "description": "Simple basic code for a telegram bot in Telethon.",
+    "name": "PyrogramBot",
+    "description": "Simple basic code for a telegram bot in Pyrogram.",
     "logo": "",
     "keywords": [
         "telegram",
@@ -8,7 +8,7 @@
         "telegram-bot",
         "botzhub"
     ],
-    "repository": "https://github.com/Infotechbro/SimpleTelethon",
+    "repository": "https://github.com/Infotechbro/SimplePyrogram",
     "website": "AlainxD.me",
     "success_url": "https://t.me/CodingClets",
     "env": {
